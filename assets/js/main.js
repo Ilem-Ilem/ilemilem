@@ -41,6 +41,7 @@
   navLinks.forEach(navlink =>{
     navlink.addEventListener('click', function(){
       document.getElementById('collapsibleNavId').classList.remove('show')
+      mobileNavBtn.innerHTML = '<i class="bi bi-list"></i>'
     })
   })
 
